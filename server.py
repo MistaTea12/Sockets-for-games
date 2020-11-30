@@ -3,7 +3,6 @@ from _thread import *
 import threading
 import sys
 
-newConnect = threading.Lock()
 currentPlayer = 0
 
 player_data = []
